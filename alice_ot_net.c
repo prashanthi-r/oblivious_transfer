@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include<gmp.h>
 #include<sys/types.h> 
 #include<sys/socket.h>
 #include<netinet/in.h>
@@ -10,6 +9,7 @@
 #include<fcntl.h> 
 #include<unistd.h>
 #include <strings.h>
+#include<gmp.h>
 
 int alice_ot1();
 int alice_ot2();
